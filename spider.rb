@@ -1,7 +1,7 @@
 require 'mechanize'
 class Spider
 
-  def getInfo(username, password)
+  def getStdCourseInfo(username, password)
     agent = Mechanize.new
     page = agent.get 'http://portal.uestc.edu.cn'
     login = page.forms.first

@@ -1,3 +1,3 @@
 require './spider.rb'
 spider = Spider.new
-spider.getInfo(ARGV[0], ARGV[1])
+spider.getStdCourseInfo(ARGV[0], ARGV[1])
